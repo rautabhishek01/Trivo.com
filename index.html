@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="font/fonts.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index.html" class="site-brand">
+                Trivo.<span>Com</span>
+            </a>
+
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="flex">
+        <div class="container">
+            <div class="header-title">
+                <h1>Leave Your Footprints</h1>
+                <p>Earth does not belong to us; we belong to earth. Take only memories, leave nothing but footprints.
+                </p>
+            </div>
+            <div class="header-form">
+                <h2>Choose Your Travel Location:</h2>
+                <form class="flex">
+                    <input type="text" class="form-control" placeholder="Destination Name">
+                    <input type="date" class="form-control" placeholder="Date">
+                    <input type="number" class="form-control" placeholder="Price $">
+                    <input type="submit" class="btn" value="Search">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about some places before your travel</span>
+                <h2 class="lg-title">featured places</h2>
+            </div>
+
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-reo-de-janeiro-brazil1.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Reo De Janerio, Brazil
+                        </span>
+                        <div>
+                            <p class="text">Rio de Janeiro is a huge seaside city in Brazil. It is famed for its
+                                Copacabana and Ipanema beaches, 38m Christ the Redeemer statue and Sugarloaf Mountain.
+                                The city is also known for its sprawling favelas (shanty towns).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-north-bondi-australia1.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            North Bondi, Australia
+                        </span>
+                        <div>
+                            <p class="text">North Bondi is a coastal, eastern suburb of Sydney, in the state of New
+                                South Wales, Australia 7 kilometres east of the Sydney central business district, in the
+                                local government area of Waverley Council.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-berlin-germany1.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Berlin, Germany
+                        </span>
+                        <div>
+                            <p class="text">Berlin, Germany’s capital, dates to the 13th century. Reminders of the
+                                city's turbulent 20th-century history include its Holocaust memorial and the Berlin
+                                Wall's graffitied remains.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-rome-italy1.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Rome, Italy
+                        </span>
+                        <div>
+                            <p class="text">Rome is the capital city of Italy. It is also the capital of the Lazio
+                                region, the centre of the Metropolitan City of Rome, and a special comune named Comune
+                                di Roma Capitale.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-fuvahmulah-maldives1.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Fuvahmulah, Maldives
+                        </span>
+                        <div>
+                            <p class="text">The inhabitants speak a distinctive form of the Dhivehi language, known as
+                                "Fuvahmulaki baha.” Fuvahmulah means "Island of the Areca nut palms", Fuvah in the local
+                                language.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-khwaeng-wat-arun-thailand1.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Khwaeng Wat Arun, Thailand
+                        </span>
+                        <div>
+                            <p class="text">Wat Arun Ratchawararam Ratchawaramahawihan, better known as Wat Arun, is a
+                                Buddhist temple on the west bank of the Chao Phraya River, opposite the Grand Palace &
+                                the Temple of the Emerald Buddha.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about services that we offer</span>
+                <h2 class="lg-title">our services</h2>
+            </div>
+            <div class="services-row">
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-hotel"></i>
+                    </span>
+                    <h3>Luxurious Hotel</h3>
+                    <p class="text">Suites and special room occupants should be given complimentary access to the
+                        fitness centre, spa, salon, pools and other exclusive features of the hotel. There should be a
+                        24/7 room service, concierge, gym and pool facility. The mini bars should be an inclusion in the
+                        high-end room categories.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </span>
+                    <h3>Travel Guide</h3>
+                    <p class="text">A Tour Guide is important to plan your trips properly without any surprises about
+                        the new place. They are required because they help organize, manage and plan the whole trip for
+                        you so that you can just concentrate on enjoying the destination and leave everything else on
+                        them.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-money-bill"></i>
+                    </span>
+                    <h3>Suitable Price</h3>
+                    <p class="text">Tourism customers rate the product at a price and without a price there is no
+                        indication of value. Pricing decisions are therefore essential for the profitability of the
+                        tourist establishment, as it has a tremendous impact on demand and sales volume.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">what our clients say about us</span>
+                <h2 class="lg-title ">testimonials</h2>
+            </div>
+
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">“Booking through you was very easy and made our lives so much easier. I have nothing
+                        bad to say! Thank you for giving us tips and guidance before we left on what to bring and such,
+                        that was very helpful! Thanks again, TRIVO.COM."</p>
+                    <div class="test-item-info">
+                        <img src="../images/test-1.jpg" alt="testimonial">
+                        <div>
+                            <h3>Brenda Lelis</h3>
+                            <p class="text">Trip to Brazil</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-item">
+                    <p class="text">Very good experience. All hotels provided were clean and repeat. All my requests
+                        were certainly looked into. Special thanks to KABIR who was continuously in touch during my
+                        trip and made sure the trip went smooth without any issues. Highly recommended!!!</p>
+                    <div class="test-item-info">
+                        <img src="../images/test-2.jpg" alt="testimonial">
+                        <div>
+                            <h3>Vishal Gupta</h3>
+                            <p class="text">Trip to Australia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-item">
+                    <p class="text">Thank you so much Indrani and Trivo team for all the support . It was a wonderful
+                        trip.it was well organised . Thank you so much Indrani and breakbag team for all the support .
+                        It was a wonderful trip.it was well organised .</p>
+                    <div class="test-item-info">
+                        <img src="../images/test-3.jpg" alt="testimonial">
+                        <div>
+                            <h3>Aditi Parab</h3>
+                            <p class="text">Trip to Thailand</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video">
+        <div class="video-wrapper flex">
+            <video loop>
+                <source src="video/video1.mp4" type="video/mp4">
+            </video>
+            <button type="button" id="play-btn">
+                <i class="fas fa-play"></i>
+            </button>
+        </div>
+    </section>
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    Trivo.<span>Com</span>
+                </a>
+                <p class="text">The Trivo.com is a private retailer or public service that provides travel and
+                    tourism-related services to the general public on behalf of accommodation or travel suppliers to
+                    offer different kinds of travelling packages for each destination.</p>
+            </div>
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Popular Places:</h2>
+                <ul>
+                    <li><a href="#">Thailand</a></li>
+                    <li><a href="#">Australia</a></li>
+                    <li><a href="#">Maldives</a></li>
+                    <li><a href="#">Switzerland</a></li>
+                    <li><a href="#">Germany</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Email" class="form-control">
+                    <input type="submit" class="btn" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        let video = document.querySelector('.video-wrapper video');
+        document.getElementById('play-btn').addEventListener('click', () => {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        });
+    </script>
+</body>
+
+</html>
